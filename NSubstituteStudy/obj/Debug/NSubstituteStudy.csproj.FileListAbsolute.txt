@@ -1,0 +1,6 @@
+D:\Workspace\test\NSubstituteStudy\NSubstituteStudy\bin\Debug\NSubstituteStudy.exe.config
+D:\Workspace\test\NSubstituteStudy\NSubstituteStudy\bin\Debug\NSubstituteStudy.exe
+D:\Workspace\test\NSubstituteStudy\NSubstituteStudy\bin\Debug\NSubstituteStudy.pdb
+D:\Workspace\test\NSubstituteStudy\NSubstituteStudy\obj\Debug\NSubstituteStudy.exe
+D:\Workspace\test\NSubstituteStudy\NSubstituteStudy\obj\Debug\NSubstituteStudy.pdb
+D:\Workspace\test\NSubstituteStudy\NSubstituteStudy\obj\Debug\NSubstituteStudy.csprojResolveAssemblyReference.cache

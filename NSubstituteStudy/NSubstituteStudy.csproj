@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2E0C5C6-833F-4BF6-BC66-610BA0F93F5C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NSubstituteStudy</RootNamespace>
+    <AssemblyName>NSubstituteStudy</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ch01\ICalculator.cs" />
+    <Compile Include="ch02\CommandRunner.cs" />
+    <Compile Include="ch02\ICommand.cs" />
+    <Compile Include="ch02\SomeClassWithCtorArgs.cs" />
+    <Compile Include="ch03\ICalculator.cs" />
+    <Compile Include="ch04\ICalculator.cs" />
+    <Compile Include="ch05\ICalculator.cs" />
+    <Compile Include="ch06\ICalculator.cs" />
+    <Compile Include="ch06\IFoo.cs" />
+    <Compile Include="ch07\ICalculator.cs" />
+    <Compile Include="ch08\ICalculator.cs" />
+    <Compile Include="ch09\CommandRepeater.cs" />
+    <Compile Include="ch09\CommandWatcher.cs" />
+    <Compile Include="ch09\ICalculator.cs" />
+    <Compile Include="ch09\ICommand.cs" />
+    <Compile Include="ch09\SomethingThatNeedsACommand.cs" />
+    <Compile Include="ch10\ICommand.cs" />
+    <Compile Include="ch10\OnceOffCommandRunner.cs" />
+    <Compile Include="ch11\ICalculator.cs" />
+    <Compile Include="ch11\IFormatter.cs" />
+    <Compile Include="ch12\ICalculator.cs" />
+    <Compile Include="ch12\IFoo.cs" />
+    <Compile Include="ch13\ICalculator.cs" />
+    <Compile Include="ch14\IEngine.cs" />
+    <Compile Include="ch14\LowFuelWarningEventArgs.cs" />
+    <Compile Include="ch15\IContext.cs" />
+    <Compile Include="ch15\IIdentity.cs" />
+    <Compile Include="ch15\INumberParser.cs" />
+    <Compile Include="ch15\INumberParserFactory.cs" />
+    <Compile Include="ch15\IRequest.cs" />
+    <Compile Include="ch16\ILookup.cs" />
+    <Compile Include="ch17\ICalculator.cs" />
+    <Compile Include="ch17\ICart.cs" />
+    <Compile Include="ch17\IEvents.cs" />
+    <Compile Include="ch17\IOrderProcessor.cs" />
+    <Compile Include="ch17\OrderPlacedCommand.cs" />
+    <Compile Include="ch18\Controller.cs" />
+    <Compile Include="ch18\ICommand.cs" />
+    <Compile Include="ch18\IConnection.cs" />
+    <Compile Include="ch19\SummingReader.cs" />
+    <Compile Include="ch20\IWidgetBuilder.cs" />
+    <Compile Include="ch20\IWidgetExample.cs" />
+    <Compile Include="ch20\ProductionLine.cs" />
+    <Compile Include="ch20\Widget.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ch19\Partial subs and test spies.txt" />
+    <Content Include="ch20\Return for all calls of a type.txt" />
+    <Content Include="ch21\Threading.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
